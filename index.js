@@ -3,7 +3,7 @@ const wisp = require("wisp-server-node");
 const weassl = require('weassl');
 const https = require('https');
 
-const serverOptions = weassl.importKey('path/to/key.pem', 'path/to/cert.pem');
+const serverOptions = weassl.setup('path/to/key.pem', 'path/to/cert.pem');
 const bareServer = createBareServer('/bare/');
 
 const requestHandler = (req, res) => {
