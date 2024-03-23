@@ -1,0 +1,16 @@
+{
+    "name": "wisp-bare-server",
+    "version": "1.0.0",
+    "description": "Wisp Bare Server",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Entrpix",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "@tomphttp/bare-server-node": "^2.0.3",
+        "weassl": "^1.0.2",
+        "wisp-server-node": "^1.0.4"
+    }
+}
